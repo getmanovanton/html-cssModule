@@ -16,6 +16,13 @@ img {
     margin: 0 auto;
     padding: 0 24px;
 }
+form p {
+    margin: 0;
+}
+.logo{
+    font-size: 0;
+}
+
 header{
     margin: 24px 30px 30px;
 }
@@ -106,7 +113,7 @@ button{
     color: #4364a1;
     float: left;
     width: 50%;
-    height: 300px;
+    height: 400px;
     padding-top: 60px;
 }
 .shopping_image a{
@@ -128,4 +135,21 @@ footer{
     font-size: 1.4em;
     text-align: center;
     padding: 30px 0 40px 0;
+}
+@media (max-width: 769px) {
+    header {
+        margin: 22px 30px 23px;
+    }
+
+    form .search {
+        width: 200px;
+    }
+
+    .banner {
+        margin-bottom: 32px;
+    }
+
+    .wrapper {
+        padding: 0 30px;
+    }
 }
