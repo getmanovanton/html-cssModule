@@ -106,16 +106,20 @@ button{
     padding-left: 35px;
     margin: 0;
 }
+.shopping_i_t{
+    display: flex;
+}
 .shopping_image{
     font-size: 200px;
     color: #4364a1;
-    float: left;
     width: 50%;
-    height: 400px;
     padding-top: 60px;
 }
 .shopping_image a{
     padding-left: 70px;
+}
+.shopping_text{
+    width: 50%;
 }
 .shopping_text h2{
     font-weight: normal;
@@ -182,6 +186,9 @@ margin: 0
         text-align: center;
         margin: 42px 0 24px;
     }
+    .shopping_i_t{
+        flex-direction: column;
+    }
     .shopping_image {
         text-align: center;
         float: none;
@@ -192,6 +199,9 @@ margin: 0
     }
     .shopping_image a {
         padding-left: 0;
+    }
+    .shopping_text{
+        width: 100%;
     }
     .shopping_text h2 {
         padding-bottom: 30px;
